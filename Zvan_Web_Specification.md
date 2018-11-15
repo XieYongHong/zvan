@@ -32,7 +32,7 @@
 
 
 ### 目录设计
-
+````````
 
 ├── zvan_ep_ui                  // 项目名称
     ├── packages                // 组件文件
@@ -40,11 +40,12 @@
     │    └── xxx.js             // vue组件注册
     └── util                    // 公共js
 
+````````
 ### 代码编写规范
 
-* 尽量使用语义化标签
-* js规范([airbnbJS 代码规范](https://www.jianshu.com/p/221d55a9170c))
-* css规范(sass、less、stylus)
+* 尽量使用语义化标签(按钮就是用button标签，别使用div等其它标签)
+* js规范([airbnbJS 代码规范](https://www.jianshu.com/p/221d55a9170c)、ESLint)
+* [css规范](https://www.cnblogs.com/makai/p/9002898.html)(sass、less、stylus)
 * vue组件规范(mixin函数、vuex、router等；组件样式使用scope或者BEM命名规范)
 * 遇到相同的结构考虑抽象组件
 * 方法以及变量加注释
@@ -55,8 +56,8 @@
 
 * 每个组件要有详细的使用文档以及示例
 * 需要完整的单元测试
-* 测试工具 karma
-* 测试框架 mocha
-* 断言工具 chai
+* 测试工具 [karma](http://karma-runner.github.io/3.0/intro/installation.html)
+* 测试框架 [mocha](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000)
+* 断言工具 [chai](https://www.jianshu.com/p/f200a75a15d2)
 * ui测试工具
 * 编写测试脚本
