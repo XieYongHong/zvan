@@ -6,7 +6,7 @@
 * 从维护角度看，统一的代码规范管理；
 * 从技术角度看，统一的技术栈，利于跨项目开发；
 # 前端技术栈
-> vue 2.0 + ES6/7 + axios + element-ui + echarts +  sass(暂定)
+> vue 2.0 + ES6/7 + axios + element-ui + echarts +  sass + openlayers5
 # 组件的设计
 
 ##  设计原则
@@ -28,6 +28,7 @@
 ### 灵活拓展
 
 * 组件设计要尽量灵活可拓展，除了提供丰富的props，还可以利用slot插槽完成用户个性化定制需求
+* render函数 && jsx
 
 ## 开发规范
 
@@ -59,7 +60,5 @@
 * 需要完整的单元测试
 * 测试工具 [karma](http://karma-runner.github.io/3.0/intro/installation.html)
 * 测试框架 [mocha](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000)
-* 断言工具 [chai](https://www.jianshu.com/p/f200a75a15d2)
-* ui测试工具
 * 编写测试脚本
 

@@ -56,6 +56,9 @@ components: {
 |           └── index2.vue
 |
 ├── static                          纯静态资源，不会被wabpack构建
+│   ├── css                             公共样式文件目录
+│   ├── js                              公共js文件目录
+│   └── img                             图片存放目录
 └── test                            测试文件目录(unit&e2e)
     └── unit                            单元测试
 ```
@@ -140,10 +143,12 @@ a[class^='class']
 
 ### **6. JS规范**
 
-> JS代码规范使用 [AirbnbJS 代码规范](https://www.jianshu.com/p/221d55a9170c) 针对不合理的地方，会议室做记录 
-> 代码注释
+> JS代码规范使用 [AirbnbJS 代码规范](https://www.jianshu.com/p/221d55a9170c) 针对不合理的地方，会议室做记录  
+> 代码注释  
+> 不合理地方  
+> 3.4 3.5 5.1 5.2 5.3 6.2 12.1 13.6 15.1 17.1 19.2-19.12 21 22 23.4 23.5 23.9
 
 ### **7. CSS规范**
+> 前端 css 预处理器使用 sass 
 
-> 不合理地方
-> 3.4   3.5 5.1 5.2 5.3 6.2
+> css命名方式  以模块名称开头 例如 ennterprise-info
