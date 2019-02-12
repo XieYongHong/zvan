@@ -58,7 +58,8 @@
 
 * 每个组件要有详细的使用文档以及示例
 * 需要完整的单元测试
-* 测试工具 [karma](http://karma-runner.github.io/3.0/intro/installation.html)
+* 测试工具 [karma](https://www.jianshu.com/p/49707d15c529)
 * 测试框架 [mocha](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00147203593334596b366f3fe0b409fbc30ad81a0a91c4a000)
+* 断言工具 [chai](https://www.jianshu.com/p/ad59cfd158d4)
 * 编写测试脚本
 
